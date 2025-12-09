@@ -1,0 +1,6 @@
+﻿@using PressedCoins.Domain.Routes
+@using Routes = PressedCoins.Domain.Routes.AppRoutes
+<MudNavMenu>
+    <MudNavLink Href="@Routes.Home" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
+    <MudNavLink Href="@Routes.MyCollections" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Add">Meine Sammlung</MudNavLink>
+</MudNavMenu>

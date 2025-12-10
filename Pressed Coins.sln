@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedingDatabase", "SeedingDatabase\SeedingDatabase.csproj", "{1188F5C3-EF44-45E9-B005-A4326CBA682E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceCodeGenerators", "SourceCodeGenerators\SourceCodeGenerators.csproj", "{5108EFED-9501-49CE-872D-C15A50A4D0B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{1188F5C3-EF44-45E9-B005-A4326CBA682E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1188F5C3-EF44-45E9-B005-A4326CBA682E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1188F5C3-EF44-45E9-B005-A4326CBA682E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5108EFED-9501-49CE-872D-C15A50A4D0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5108EFED-9501-49CE-872D-C15A50A4D0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5108EFED-9501-49CE-872D-C15A50A4D0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5108EFED-9501-49CE-872D-C15A50A4D0B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B83181E3-0F2B-44B8-A817-FF4BB9224FD0} = {BCA83368-6B4D-4372-8B95-7A690349ADCB}

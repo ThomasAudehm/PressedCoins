@@ -1,4 +1,5 @@
 ﻿using PressedCoins.Domain.Database.Models;
+using PressedCoins.Domain.StronglyTypes;
 
 namespace PressedCoins.Database;
 
@@ -23,12 +24,12 @@ public class SeedingDatabase
         await _context.AddRangeAsync(
             new Coin
             {
-                Subject = "Motive 1",
+                Motif = Motif.From("Motive 1"),
                 DateCreated = DateTime.Now,
             },
             new Coin
             {
-                Subject = "Motive 2",
+                Motif = Motif.From("Motive 2"),
                 DateCreated = DateTime.Now,
             }
         );

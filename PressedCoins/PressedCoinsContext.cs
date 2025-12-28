@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using PressedCoins.Domain.Database.Models;
 using PressedCoins.Domain.StronglyTypes;
 
@@ -13,7 +12,7 @@ public class PressedCoinsContext : DbContext
     {
         
     }
-
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         var assemblyWithConfigurations = typeof(CoinId).Assembly;
